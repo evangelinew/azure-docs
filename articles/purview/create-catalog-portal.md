@@ -11,17 +11,17 @@ ms.custom: mode-ui
 ---
 # Quickstart: Create an Azure Purview account in the Azure portal
 
-This quickstart describes the steps to create an Azure Purview account in the Azure portal and get started on the process of classifying, securing, and discovering your data in Purview!
+This quickstart describes the steps to create an Azure Purview account in the Azure portal and get started on the process of classifying, securing, and discovering your data in Azure Purview!
 
-Azure Purview is a data governance service that helps you manage and govern your data landscape. By connecting to data across your on-premises, multi-cloud, and software-as-a-service (SaaS) sources, Purview creates an up-to-date map of your information. It identifies and classifies sensitive data, and provides end to end linage. Data consumers are able to discover data across your organization, and data administrators are able to audit, secure, and ensure right use of your data.
+Azure Purview is a data governance service that helps you manage and govern your data landscape. By connecting to data across your on-premises, multi-cloud, and software-as-a-service (SaaS) sources, Azure Purview creates an up-to-date map of your information. It identifies and classifies sensitive data, and provides end to end linage. Data consumers are able to discover data across your organization, and data administrators are able to audit, secure, and ensure right use of your data.
 
-For more information about Purview, [see our overview page](overview.md). For more information about deploying Purview across your organization, [see our deployment best practices](deployment-best-practices.md).
+For more information about Azure Purview, [see our overview page](overview.md). For more information about deploying Azure Purview across your organization, [see our deployment best practices](deployment-best-practices.md).
 
 [!INCLUDE [purview-quickstart-prerequisites](includes/purview-quickstart-prerequisites.md)]
 
 ## Create an Azure Purview account
 
-1. Go to the **Purview accounts** page in the [Azure portal](https://portal.azure.com).
+1. Go to the **Azure Purview accounts** page in the [Azure portal](https://portal.azure.com).
 
     :::image type="content" source="media/create-catalog-portal/purview-accounts-page.png" alt-text="Screenshot showing the purview accounts page in the Azure portal":::
 
@@ -33,19 +33,19 @@ For more information about Purview, [see our overview page](overview.md). For mo
 
      :::image type="content" source="media/create-catalog-portal/search-marketplace.png" alt-text="Screenshot showing Azure Purview in the Azure Marketplace, with the create button highlighted.":::
 
-1. On the new Create Purview account page, under the **Basics** tab, select the Azure subscription where you want to create your Purview account.
+1. On the new Create Azure Purview account page, under the **Basics** tab, select the Azure subscription where you want to create your Purview account.
 
 1. Select an existing **resource group** or create a new one to hold your Purview account.
 
     To learn more about resource groups, see our article on [using resource groups to manage your Azure resources](../azure-resource-manager/management/manage-resource-groups-portal.md#what-is-a-resource-group).
 
 1. Enter a **Purview account name**. Spaces and symbols aren't allowed.
-    The name of the Purview account must be globally unique. If you see the following error, change the name of Purview account and try creating again.
+    The name of the Azure Purview account must be globally unique. If you see the following error, change the name of the Azure Purview account and try creating again.
 
     :::image type="content" source="media/create-catalog-portal/name-error.png" alt-text="Screenshot showing the Create Purview account screen with an account name that is already in use, and the error message highlighted.":::
 
 1. Choose a **location**.
-    The list shows only locations that support Purview. The location you choose will be the region where your Purview account and meta data will be stored. Sources can be housed in other regions.
+    The list shows only locations that support Azure Purview. The location you choose will be the region where your Purview account and meta data will be stored. Sources can be housed in other regions.
 
       > [!Note]
       > Azure Purview does not support moving accounts across regions, so be sure to deploy to the correction region. You can find out more information about this in [move operation support for resources](../azure-resource-manager/management/move-support-resources.md).
